@@ -53,6 +53,13 @@ const Welcome: React.FC = () => {
         <div>
           For list all the available commands, type `<Cmd>help</Cmd>`.
         </div>
+        <Seperator>----</Seperator>
+        <div>
+          For my <Cmd> gui version of portsolio </Cmd> enter here: {" "}
+          <Link href="https://gerijacki.vercel.app/cat">
+            Web
+          </Link>
+        </div>
       </div>
       <div className="illu-section">
         <PreImg>
