@@ -8,6 +8,7 @@ import Gui from "./commands/Gui";
 import Help from "./commands/Help";
 import Welcome from "./commands/Welcome";
 import History from "./commands/History";
+import Ls from "./commands/Ls";
 import Projects from "./commands/Projects";
 import Socials from "./commands/Socials";
 import Experience from "./commands/Experience";
@@ -44,6 +45,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           gui: <Gui />,
           help: <Help />,
           history: <History />,
+          ls: <Ls />,
           projects: <Projects />,
           pwd: <GeneralOutput>/home/gerijacki</GeneralOutput>,
           socials: <Socials />,
