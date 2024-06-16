@@ -1,0 +1,27 @@
+{
+    "name": "Gerard Loriz Terminal",
+    "short_name": "GL Terminal",
+    "description": "What do you want to know about me? Terminal version it's better than gui ;)",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#1d2a35",
+    "theme_color": "#1d2a35",
+    "icons": [
+      {
+        "src": "/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "src": "/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      }
+    ]
+  }
+  
