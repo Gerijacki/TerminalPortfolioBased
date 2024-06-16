@@ -17,9 +17,9 @@ const Welcome: React.FC = () => {
           {`        
                 ____           _  _            _    _ 
               / ___| ___ _ __(_)(_) __ _  ___| | _(_)
-              | |  _ / _ \ '__| || |/ _ |/ __| |/ / |
+              | |  _ / _ \\ '__| || |/ _ |/ __| |/ / |
               | |_| |  __/ |  | || | (_| | (__|   <| |
-              \____|\___|_|  |_|/ |\__,_|\___|_|\_\_|
+              \\____|\\___|_|  |_|/ |\\__,_|\\___|_|\\_\\_|
                                |__/                 ^                  
           `}
         </PreName>
@@ -28,18 +28,23 @@ const Welcome: React.FC = () => {
             {`
             ____           _           
           / ___| ___ _ __(_)          
-          | |  _ / _ \ '__| |          
+          | |  _ / _ \\ '__| |          
           | |_| |  __/ |  | |          
-          \____|\___|_|  |_|   _    _ 
+          \\____|\\___|_|  |_|   _    _ 
                   (_) __ _  ___| | _(_)
                   | |/ _^ |/ __| |/ / |
                   | | (_| | (__|   <| |
-                _/ |\__,_|\___|_|\_\_|
+                _/ |\\__,_|\\___|_|\\_\\_|
                 |__/                   
  
           `}
           </PreNameMobile>
         </PreWrapper>
+        <div>
+          Ideas have to take shape. They become reality as you work on them.
+          <Cmd> Just get going.</Cmd>
+        </div>
+        <Seperator>----</Seperator>
         <div>Welcome to my personal portfolio based on a linux terminal.</div>
         <Seperator>----</Seperator>
         <div>
@@ -51,14 +56,12 @@ const Welcome: React.FC = () => {
         </div>
         <Seperator>----</Seperator>
         <div>
-          For list all the available commands, type `<Cmd>help</Cmd>`.
+          For my <Cmd> gui version of portfolio </Cmd> enter here:{" "}
+          <Link href="https://gerijacki.vercel.app/en">Web</Link>
         </div>
         <Seperator>----</Seperator>
         <div>
-          For my <Cmd> gui version of portsolio </Cmd> enter here: {" "}
-          <Link href="https://gerijacki.vercel.app/cat">
-            Web
-          </Link>
+          For list all the available commands, type `<Cmd>help</Cmd>`.
         </div>
       </div>
       <div className="illu-section">
