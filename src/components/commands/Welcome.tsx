@@ -49,7 +49,7 @@ const Welcome: React.FC = () => {
         <Seperator>----</Seperator>
         <div>
           All the code source code can be found on:{" "}
-          <Link href="https://github.com/Gerijacki/Portfoliov2">
+          <Link href="https://github.com/Gerijacki/GuiPortfolioBased">
             GitHub repo
           </Link>
           .
