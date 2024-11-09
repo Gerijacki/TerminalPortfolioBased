@@ -7,8 +7,8 @@ export type File = {
 const files: File[] = [
   {
     id: 1,
-    title: "CV.pdf",
-    url: "/CV.pdf",
+    title: "Flag.txt",
+    url: "/Flag.txt",
   },
   // {
   //   id: 2,
