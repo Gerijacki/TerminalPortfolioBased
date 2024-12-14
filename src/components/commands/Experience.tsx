@@ -18,7 +18,7 @@ const Experience: React.FC = () => {
 const expBg = [
   {
     title: "Multiplatform application development in a pharmaceutical company",
-    desc: "04/2024 - Present | Intern (Dual)",
+    desc: "04/2024 - Present | Junior developer",
   },
   {
     title: "IT Technician in a public school",
