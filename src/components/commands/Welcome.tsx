@@ -57,7 +57,7 @@ const Welcome: React.FC = () => {
         <Seperator>----</Seperator>
         <div>
           For my <Cmd> gui version of portfolio </Cmd> enter here:{" "}
-          <Link href="https://gerijacki.vercel.app/en">Web</Link>
+          <Link href="https://www.gerardloriz.com/en">Web</Link>
         </div>
         <Seperator>----</Seperator>
         <div>
