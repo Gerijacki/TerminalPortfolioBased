@@ -3,7 +3,7 @@ import { User, WebsiteName, Wrapper } from "./styles/TerminalInfo.styled";
 const TermInfo = () => {
   return (
     <Wrapper>
-      <User>visitor</User>@<WebsiteName>terminal.gerijacki.dev</WebsiteName>:~$
+      <User>anonymous</User>@<WebsiteName>terminal.gerardloriz.com</WebsiteName>:~$
     </Wrapper>
   );
 };
